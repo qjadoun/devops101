@@ -5,11 +5,11 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+        }
         stage('test') {
             steps {
                 sh 'python --version'
             }
         }
     }
-}
 }
